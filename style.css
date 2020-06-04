@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Leckerli+One&display=swap');
+html {
+    background: url('/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+h1 {
+    margin-left: 9%;
+    text-align: center;
+    font-family: 'Leckerli One', cursive;
+    font-size: 3rem;
+    color: orange;
+    font-style: normal;
+    text-shadow: 0.5px 0.5px black, 1px 1px blueviolet, 2px 2px blueviolet, 0 0 5px cyan,
+     2.5px 2.5px yellow, 3.5px 3.5px yellow, 4px 4px blueviolet;
+}
+.grid, .grid-settings, .main, .options {
+    display: flex;
+}
+.main, .grid-settings {
+    justify-content: center;
+}
+.options {
+    flex-direction: column;
+    justify-content: center;
+}
+.grid{
+    box-shadow:0 0 0 5px rgb(107, 168, 184);
+    border-radius: 1px;
+    width: 500px;
+    height: 500px;
+    min-width: 500px;
+    min-height: 500px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    background-image: url('/canvas.jpg');
+    background-size: 350px;
+    flex-wrap: wrap;
+}
+.grid:hover {
+    box-shadow:0 0 0 5px orangered;
+}
+.input-grid {
+    margin-right: 10px;
+    padding-left: 6px;
+    border-width: 1.5px;
+    border-radius: 5px;
+    border-color: darkblue;
+    border-style: solid;
+    font-family: cursive;
+    width: 50px;
+}
+.btn-resize {
+    margin-bottom: 0px !important;
+}
+.btn {
+    color: white;
+    margin-bottom: 15px;
+    background-color: darkturquoise;
+    border-width: 1.5px;
+    border-radius: 5px;
+    border-color: darkblue;
+    border-style: solid;
+    font-family: cursive;
+    font-size: 17px;
+}
+.btn:hover {
+    font-weight: bold;
+    cursor: pointer;
+    color: orangered;
+    box-shadow: 0 0 0 1px orangered;
+    font-size: 17.5px;
+}
+.reset-text {
+    font-family: 'Pacifico';
+    margin-right: 5px;
+    font-size: 17px;
+}
+

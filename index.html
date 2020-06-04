@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <title>Etch-a-Sketch</title>
+    </head>
+
+    <body>
+        <h1 class="title">Etch-a-Sketch</h1>
+        <div class="main">
+            <div class="options">
+                <button type="button" class="btn btn-eraser" id="eraser">Eraser</button>
+                <button type="button" class="btn btn-random" id="random">Random</button>
+                <button type="button" class="btn btn-clear" id="clear">Clear</button>
+            </div>
+            <div class="grid"></div>
+        </div>
+        <div class="grid-settings">
+            <label for="pad-size" class="reset-text">Enter a grid size:</label>
+            <input type="number" min="1" max="200" name="pad-size" class="input-grid">
+            <button type="button" class="btn btn-resize">Resize</button> 
+        </div>
+    </body>
+    
+    <script type="text/javascript" src="script.js"></script>
+</html>
